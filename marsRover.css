@@ -1,0 +1,27 @@
+#mars-selector-container{
+	height:8rem;
+	width:100%;
+	background-image:linear-gradient(to right,lightpink,lightgreen);
+
+}
+form input{
+	margin-top:2rem;
+	font-size:1.5rem;
+}
+form label{
+	margin-top:2rem;
+	font-size:1.5rem;
+}
+#mars-image-container{
+	display: flex;
+	flex-direction: horizontal;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#mars-image-container img {
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 200px;
+    margin: 20px;
+}
